@@ -1,0 +1,13 @@
+.img-area{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    object-fit: cover;
+    size-adjust: 100%;
+}
+
+.single-img{
+    padding:0;
+
+}
