@@ -11,8 +11,26 @@ width:100%;
 
 
 }
-.col-3{
+.col-3 {
 display: grid;
+padding-left: 0;
+padding-right: 0;
+}
+
+.col-sm-3{
+display: grid;
+padding-left: 0;
+padding-right: 0;
+}
+
+.col-md-3{
+display: grid;
+padding-left: 0;
+padding-right: 0;
+}
+
+.col-lg-2{
+  display: grid;
 padding-left: 0;
 padding-right: 0;
 }
@@ -22,6 +40,7 @@ body{
 width:100%; 
 overflow-x: hidden;
 }
+
 
 
 
