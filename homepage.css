@@ -141,7 +141,7 @@ ul{
 	}
 	
 	ul{
-		position: absolute;
+		position: fixed;
 		width:100%;
 		background: #F7F7F7;
 		top:80px;
@@ -167,7 +167,7 @@ ul{
 		color:white;
 	}
 	#check:checked~ul{
-		left:0;
+		right:0;
 	}
 }
 
