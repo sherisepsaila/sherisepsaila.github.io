@@ -1,0 +1,80 @@
+img {
+  opacity: 0.5;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom:20px;
+    color:white;
+}
+
+h1{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*text inside the name box*/
+
+input[type=text] {
+text-align:left;
+width:90.5%;
+margin-left: 50px;
+margin-right: 50px;
+padding-left: 5px;
+}
+
+/*text inside the email box*/
+
+input[type=email] {
+text-align:left;
+width:80%;
+margin-left: 50px;
+margin-right: 50px;
+padding-left: 5px;
+}
+
+input[type=submit] {
+align-items:center;
+width:80%;
+margin-left: 50px;
+margin-right: 50px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    text-align: left;
+}
+
+/*title of box*/
+label{
+    margin-left:50px;
+    margin-top:25px;
+    margin-bottom:20px;
+    font-size:18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+textarea{
+text-align:left;
+width:90.5%;
+margin-left: 50px;
+margin-right: 50px;
+height:200px;
+padding-left: 5px;
+}
+
+/*submit button*/
+.col-1{
+    width:200px;
+    height: 20px;
+    align-content: center;
+    margin-top: 20px;
+}
+
+hr{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
