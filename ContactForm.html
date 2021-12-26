@@ -104,20 +104,26 @@
     <!--Form-->
     <div class="container">
         <form>
-            <div class="row">
-                <div class="col-6">
+            <div class="row1">
+                <div class="col-12 col-sm-6">
                     <label for="fname">First and Last Name</label>
                 </div>
-                <div class="col-6">
+            </div>
+            <div class="row2">
+                <div class="col-12 col-sm-6">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                </div>
+            </div>
+
+            <div class="row1">
+                <div class="col-12 col-sm-6">
                     <label for="fname">Email</label>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-6">
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                </div>
-                <div class="col-6">
+
+            <div class="row2">
+                <div class="col-12 col-sm-6">
                     <input type="email" id="email" name="email" placeholder="Your email.." required>
                 </div>
             </div>
@@ -129,7 +135,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <textarea id="subject" name="subject" placeholder="Write your comment.."></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write your comment.." required></textarea>
                 </div>
             </div>
             <div class="row">
@@ -139,6 +145,8 @@
             </div>
         </form>
     </div>
+
+    <hr>
 
 </body>
 

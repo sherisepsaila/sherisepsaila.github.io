@@ -13,7 +13,11 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+@media (max-width: 1920px) {
 /*text inside the name box*/
+
+
 
 input[type=text] {
 text-align:left;
@@ -36,7 +40,6 @@ padding-left: 5px;
 input[type=submit] {
 align-items:center;
 width:80%;
-margin-left: 50px;
 margin-right: 50px;
 font-family: 'Montserrat', sans-serif;
 }
@@ -47,7 +50,7 @@ font-family: 'Montserrat', sans-serif;
 
 /*title of box*/
 label{
-    margin-left:50px;
+    margin-left:30px;
     margin-top:25px;
     margin-bottom:20px;
     font-size:18px;
@@ -55,10 +58,20 @@ label{
     font-weight: bold;
 }
 
+ #fname{
+      margin-left:30px;
+      width:90.5%;
+ }
+
+#email{
+     margin-left:30px;
+     width:90.5%;
+}
+
 textarea{
 text-align:left;
 width:90.5%;
-margin-left: 50px;
+margin-left: 30px;
 margin-right: 50px;
 height:200px;
 padding-left: 5px;
@@ -70,6 +83,8 @@ padding-left: 5px;
     height: 20px;
     align-content: center;
     margin-top: 20px;
+    margin-left:30px;
+}
 }
 
 hr{
@@ -77,4 +92,26 @@ hr{
     margin-bottom:5px;
 }
 
+/*when screen is small*/
+@media (max-width: 360px){
+    label{
+    margin-left:40px;
+    margin-top:25px;
+    margin-bottom:20px;
+    font-size: 15px;
+    }
 
+    #fname{
+        width:268.8px;
+    }
+    #email{
+         width:268.8px;
+    }
+    textarea{
+        width:268.8px;
+    }
+
+    .col-6{
+        overflow-x: hidden;
+    }
+}
