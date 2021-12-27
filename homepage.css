@@ -56,7 +56,7 @@ p{
 
 nav{
 	background: white;
-	height:80px;
+	height:80%;
 	width:100%;
 	z-index: 2;
 
@@ -72,6 +72,7 @@ line-height:80px;
 padding:0 50px;
 font-weight: bold; 
 margin-top: 0px;
+margin-bottom: 0%;
 }
 
 

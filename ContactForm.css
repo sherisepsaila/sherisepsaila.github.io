@@ -12,7 +12,7 @@
 
 nav{
 	background: white;
-	height:80px;
+	height:80%;
 	width:100%;
 	z-index: 2;
 
@@ -20,14 +20,13 @@ nav{
 
 /*logo top left*/
 
-label.logo{
+label[class=logo]{
 color: black;
 font-family: 'Montserrat', sans-serif;
 font-size: 32px;
 line-height:80px;
 font-weight: bold;
-padding:0 50px;
-margin-top: 0px;
+margin-bottom:0%;
 }
 
 
@@ -79,8 +78,9 @@ a.active,a:hover{
 	display: none;
 }
 @media(max-width:952px){
-label.logo{
+label[class=logo]{
 	font-size: 30px;
+
 
 }
 nav ul li a{
@@ -152,8 +152,6 @@ h1{
 @media (max-width: 1920px) {
 /*text inside the name box*/
 
-
-
 input[type=text] {
 text-align:left;
 width:90.5%;
@@ -185,7 +183,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 /*title of box*/
-label{
+label[for=fname]{
     margin-left:30px;
     margin-top:25px;
     margin-bottom:20px;
@@ -230,7 +228,7 @@ hr{
 
 /*when screen is small*/
 @media (max-width: 360px){
-    label{
+    label[for=fname]{
     margin-left:40px;
     margin-top:25px;
     margin-bottom:20px;
