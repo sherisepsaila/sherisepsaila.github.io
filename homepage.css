@@ -66,10 +66,12 @@ nav{
 
 label.logo{
 color: black;
+font-family: 'Montserrat', sans-serif;
 font-size: 32px;
 line-height:80px;
 padding:0 50px;
-font-weight: bold;
+font-weight: bold; 
+margin-top: 0px;
 }
 
 
