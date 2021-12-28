@@ -85,6 +85,7 @@ nav ul{
 	margin-top: 0%;
 	margin-bottom: 0%;
 	z-index: 2;
+	padding-right: 10px;
 }
 
 nav ul li{
